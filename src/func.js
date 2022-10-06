@@ -31,9 +31,3 @@ function myclick() {
     });
   });
 }
-function mytime() {
-  x = document.getElementById("Mytime");
-  x.style.width = "100%";
-
-  // document.getElementById("Mytime").style.width = "300px";
-}

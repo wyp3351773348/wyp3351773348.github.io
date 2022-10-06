@@ -1,1 +1,54 @@
-<hi>你好</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <script src="src/func.js"></script>
+    <title>你好</title>
+  </head>
+
+  <body onload="timeshow()" onclick="myclick()">
+    <div id="header">
+      <img class="logo" src="/image/logo.png" width="60px" height="60px" ; />
+      <div id="timeshow">当前时间</div>
+    </div>
+    <div id="Body">
+      <div id="images">
+        <div id="Mytime" class="card" onclick="mytime()">
+          <img src="/image/hourglass.png" width="20%" height="auto" />
+          <p>时光飞逝</p>
+          <p>今朝何时</p>
+        </div>
+        <div id="datecount" class="card">
+          <img src="/image/加减调整_adjustment.png" width="20%" height="auto" />
+          <p>岁岁常欢愉</p>
+          <p>年年皆胜意</p>
+        </div>
+        <div id="Mynote" class="card">
+          <img src="/image/文字_add-text-two.png" width="20%" height="auto" />
+          <p>有感而发</p>
+          <p>写下它</p>
+        </div>
+        <div id="massage" class="card">
+          <img src="/image/营养_nutrition.png" width="20%" height="auto" />
+          <p>饿了</p>
+          <p>吃啥</p>
+        </div>
+        <div id="Mygame" class="card">
+          <img src="/image/游戏_game.png" width="20%" height="auto" />
+          <p>经典游戏</p>
+          <p>等你回味</p>
+        </div>
+      </div>
+    </div>
+    <div id="Bottom1" class="Bottom">
+      <p>
+        声明：本站并不以盈利为目的，部分素材来源于网络，旨在转递美好与希望。
+      </p>
+      <p>
+        如本站的内容对你造成了影响，请第一时间联系我们，我们会在第一时间将涉及版权的内容进行删除。
+      </p>
+    </div>
+    <div id="Bottom2" class="Bottom"></div>
+  </body>
+</html>

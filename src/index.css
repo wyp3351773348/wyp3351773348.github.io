@@ -1,0 +1,411 @@
+body {
+  margin: 0;
+  min-width: 1200px;
+}
+
+header {
+  background: #fff;
+  /* border-bottom: 2px solid #100f0e; */
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+header img {
+  height: 50px;
+  margin: 25px;
+}
+
+nav a div {
+  float: right;
+  /* height: 91px; */
+  background-color: inherit;
+  padding: 30px;
+  text-align: center;
+  line-height: 1.5em;
+  /* font-size: small; */
+  color: rgb(22, 22, 22);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a div p {
+  font: 0.1em sans-serif;
+  color: #100f0e;
+}
+
+nav a div.first {
+  color: #df6a21;
+}
+nav div:active {
+  background-color: #ffc001;
+  border-bottom: 3px solid #362623;
+}
+
+div.pictures {
+  width: 100%;
+  padding: 50px 0;
+  background-image: url("../image/picture1.jpg");
+  /* background-color: #d2c3ac; */
+  background-size: 100%;
+}
+
+div.pictures .content {
+  margin: 100px auto;
+  text-align: center;
+}
+
+div.pictures .Hello {
+  color: rgba(255, 255, 255, 0);
+  font-size: 100px;
+}
+
+div.pictures .learn {
+  border: 1.5px solid #030303;
+  border-radius: 5px;
+  padding: 20px 20px;
+  color: rgb(0, 0, 0);
+  width: 200px;
+  transition: 1s;
+}
+
+div.more::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div.more div {
+  float: left;
+  margin: 70px 100px;
+}
+
+div.more div.welcome {
+  font-size: xx-large;
+}
+
+div.more div.motto {
+  line-height: 2em;
+  color: rgb(105, 105, 106);
+}
+
+div.more div.MORE {
+  border-radius: 30px;
+  padding: 15px 60px;
+  background-color: #ffc001;
+  color: #fff;
+  transition: 0.5s;
+}
+
+div.more div.MORE:hover {
+  box-shadow: 5px 5px 20px 5px rgb(255, 204, 204);
+  padding: 15px 100px;
+}
+
+div.me {
+  background-image: url("../image/jianjie.jpg");
+  background-size: 100%;
+  padding: 100px;
+  line-height: 2em;
+}
+
+div.me div.content {
+  margin: 30px 30px 30px 500px;
+  padding: 50px 50px 50px 100px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+div.me div.content div.one {
+  border-bottom: 2px solid #777;
+  padding-bottom: 30px;
+}
+
+div.me div.content div.one div.name {
+  font-size: x-large;
+}
+
+div.me div.content div.one div.bar {
+  color: #ffc945;
+  font-weight: 900;
+}
+
+div.me div.content div.one div.text {
+  color: #777777;
+}
+
+div.me div.content div.two {
+  padding-top: 30px;
+  color: #777777;
+}
+
+div.me div.content div.two::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.me div.content div.two div.contact a {
+  float: left;
+  margin: 20px 50px;
+  color: #777777;
+}
+
+div.skill {
+  padding: 60px 50px;
+  background-color: #fff;
+}
+
+div.skill div.header,
+div.works div.header {
+  text-align: center;
+  line-height: 2em;
+}
+
+div.skill div.header div.one,
+div.works div.header div.one {
+  font-size: x-large;
+}
+
+div.skill div.header div.two,
+div.works div.header div.two {
+  color: #ffbf27;
+}
+
+div.skill div.header div.three,
+div.works div.header div.three {
+  color: #777;
+}
+
+div.skill div.content {
+  margin: 30px 60px;
+  text-align: center;
+}
+div.skill div.content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.skill div.content a {
+  float: left;
+  padding: 30px 100px;
+  color: #777;
+}
+
+div.works {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+div.works div.nav {
+  width: 660px;
+  margin: 50px auto;
+  padding: 0 auto;
+}
+
+div.works div.nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.works div.nav div {
+  float: left;
+  padding: 15px 60px;
+  margin: 0 20px;
+  border-radius: 30px;
+  text-align: center;
+  transition: 0.3s;
+  color: #000;
+}
+
+div.works div.nav div:hover {
+  background-color: #ffc001;
+  color: #fff;
+}
+
+div.works div.content {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+div.works div.content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.works div.content div.box {
+  margin: 0 30px;
+  float: left;
+  text-align: center;
+}
+
+div.works div.content img {
+  border-radius: 5px;
+}
+
+div.works div.content div {
+  margin: 30px 0;
+}
+
+div.teamwork {
+  padding: 60px 150px;
+  background-image: url("../image/teamwork.jpg");
+  background-size: 100%;
+}
+
+div.teamwork div.header,
+div.interflow div.header {
+  line-height: 2em;
+}
+
+div.teamwork div.header div.one,
+div.interflow div.header div.one {
+  font-size: x-large;
+}
+
+div.teamwork div.header div.two,
+div.interflow div.header div.two {
+  color: #1f60b5;
+}
+
+div.teamwork div.header div.three {
+  color: #777;
+}
+
+div.teamwork div.content div {
+  margin: 50px auto;
+  text-align: center;
+}
+
+div.teamwork div.content div img {
+  margin: 0 30px;
+}
+
+div.interflow {
+  background-color: #fff;
+  padding: 60px 150px;
+}
+
+div.interflow div.content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.interflow div.content div {
+  float: left;
+}
+
+div.interflow div.content div.one {
+  position: relative;
+  left: -12px;
+  width: 565px;
+}
+
+div.interflow div.content div.two {
+  margin: 12px 0 0 30px;
+  width: 500px;
+  color: #777;
+  line-height: 2em;
+}
+
+div.interflow div.content div.two div.one {
+  margin: 10px 0 0 10px;
+  color: #100f0e;
+}
+div.interflow div.content div.two div.one div.name {
+  margin-right: 40px;
+}
+
+div.interflow div.content div.two div.one div.phone {
+  margin-left: 40px;
+}
+
+div.interflow div.content div.two input {
+  height: 35px;
+  background-color: #f3f3f3;
+  border: none;
+  width: 200px;
+  text-indent: 10px;
+}
+
+div.interflow div.content div.two div.two {
+  margin: 10px 0;
+  color: #100f0e;
+}
+
+div.interflow div.content div.two div.two textarea {
+  height: 100px;
+  background-color: #f3f3f3;
+  border: none;
+  width: 480px;
+  text-indent: 10px;
+  font-family: 微软雅黑;
+}
+
+div.interflow div.content div.two button {
+  height: 40px;
+  width: 200px;
+  background-color: #ffad2b;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+div.interflow div.content div.two button:hover {
+  box-shadow: 5px 5px 10px 5px #d1cccc;
+}
+
+div.bottom div.one div.A,
+div.bottom div.one div.B {
+  padding: 50px 150px;
+  background-color: #1e1e1e;
+  font-size: x-large;
+  /* border-bottom: 1px solid #444444; */
+}
+
+div.bottom div.one div.A::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.bottom div.one div.resume {
+  color: #ffc001;
+  float: left;
+}
+
+div.bottom div.one div.a a {
+  float: right;
+  font-size: initial;
+  color: #444444;
+  padding: 0 40px;
+}
+
+div.bottom div.one div.B {
+  border: none;
+  font-size: initial;
+  color: #444444;
+}
+
+div.bottom div.one div.B::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.bottom div.one div.B div {
+  float: left;
+  margin: 0 30px;
+}
+
+div.bottom div.two {
+  height: 50px;
+  background-color: #2b2b2b;
+}

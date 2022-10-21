@@ -1,54 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="src/style.css" />
-    <script src="src/func.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>你好</title>
+    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/index.css" />
   </head>
-
-  <body onload="timeshow()" onclick="myclick()">
-    <div id="header">
-      <img class="logo" src="/image/logo.png" width="60px" height="60px" ; />
-      <div id="timeshow">当前时间</div>
-    </div>
-    <div id="Body">
-      <div id="images">
-        <a id="Mytime" class="card">
-          <img src="/image/hourglass.png" width="20%" height="auto" />
-          <p>时光飞逝</p>
-          <p>今朝何时</p>
+  <body>
+    <!--头部区域-->
+    <header>
+      <nav>
+        <a href=""
+          ><div class="first">
+            首页
+            <p>HOME</p>
+          </div>
         </a>
-        <div id="datecount" class="card">
-          <img src="/image/加减调整_adjustment.png" width="20%" height="auto" />
-          <p>岁岁常欢愉</p>
-          <p>年年皆胜意</p>
+        <a href=""
+          ><div>
+            关于我
+            <p>ABOUT ME</p>
+          </div></a
+        >
+        <a href=""
+          ><div>
+            技能
+            <p>SKILLS</p>
+          </div></a
+        >
+        <a href=""
+          ><div>
+            作品
+            <p>WORKS</p>
+          </div></a
+        >
+        <a href=""
+          ><div>
+            联系
+            <p>CONTACT</p>
+          </div></a
+        >
+        <img src="image/w_pro.png" alt="logo" />
+      </nav>
+    </header>
+    <!-- 轮播图 -->
+    <div class="pictures">
+      <div class="content Hello">你 好</div>
+      <div class="content learn" href="">了解我</div>
+    </div>
+    <!-- more -->
+    <div class="more">
+      <div class="welcome">WELCOME<br />—</div>
+      <div class="motto">
+        我的座右铭<br />对设计保持好奇心、目的和激情，始终如一
+      </div>
+      <a href=""><div class="MORE">MORE</div></a>
+    </div>
+    <!-- 简介 -->
+    <div class="me">
+      <div class="content">
+        <div class="one">
+          <div>土木人</div>
+          <div class="name">王亚鹏</div>
+          <div class="bar">————</div>
+          <div class="text">
+            我不是美工，我不光做设计，从视觉让我收获足够的经验，我有自己的认识！
+          </div>
         </div>
-        <div id="Mynote" class="card">
-          <img src="/image/文字_add-text-two.png" width="20%" height="auto" />
-          <p>有感而发</p>
-          <p>写下它</p>
+        <div class="two">
+          <div class="brithday">· 出生年月：2001 年 03 月 21 日</div>
+          <div>· 学历：本科在读</div>
+          <div>· 学校：西南交通大学 （道路桥梁与渡河工程专业）</div>
+          <div class="contact">
+            <a href="">
+              <img src="image/qq.png" style="height: 30px" />
+              <div>QQ</div></a
+            >
+            <a href="">
+              <img src="image/wechat.png" style="height: 30px" />
+              <div>微信</div></a
+            >
+            <a href="">
+              <img src="image/telephone.png" style="height: 30px" />
+              <div>电话</div></a
+            >
+            <a href="">
+              <img src="image/tiktok.png" style="height: 30px" />
+              <div>抖音</div></a
+            >
+          </div>
         </div>
-        <div id="massage" class="card">
-          <img src="/image/营养_nutrition.png" width="20%" height="auto" />
-          <p>饿了</p>
-          <p>吃啥</p>
-        </div>
-        <a id="Mygame" href="demo.html" class="card">
-          <img src="/image/游戏_game.png" width="20%" height="auto" />
-          <p>经典游戏</p>
-          <p>等你回味</p>
+      </div>
+    </div>
+    <!-- 技能掌握 -->
+    <div class="skill">
+      <div class="header">
+        <div class="one">技能掌握</div>
+        <div class="two">————</div>
+        <div class="three">对设计保持好奇心、目的和激情，始终如一</div>
+      </div>
+      <div class="content">
+        <a href="">
+          <img src="image/ppt.jpg" style="height: 60px" />
+          <div>熟练度：10%</div> </a
+        ><a href="">
+          <img src="image/ppt.jpg" style="height: 60px" />
+          <div>熟练度：10%</div> </a
+        ><a href="">
+          <img src="image/ppt.jpg" style="height: 60px" />
+          <div>熟练度：10%</div> </a
+        ><a href="">
+          <img src="image/ppt.jpg" style="height: 60px" />
+          <div>熟练度：10%</div>
         </a>
       </div>
     </div>
-    <div id="Bottom1" class="Bottom">
-      <p>
-        声明：本站并不以盈利为目的，部分素材来源于网络，旨在转递美好与希望。
-      </p>
-      <p>
-        如本站的内容对你造成了影响，请第一时间联系我们，我们会在第一时间将涉及版权的内容进行删除。
-      </p>
+    <!-- 作品 -->
+    <div class="works">
+      <div class="header">
+        <div class="one">多年个人优秀作品</div>
+        <div class="two">————</div>
+        <div class="three">对设计保持好奇心、目的和激情，始终如一</div>
+      </div>
+      <div class="nav">
+        <a href=""><div>VI设计</div></a>
+        <a href=""><div>包装设计</div></a>
+        <a href=""><div>网页设计</div></a>
+      </div>
+      <div class="content">
+        <div class="box">
+          <img src="image/work.jpg " style="width: 300px" />
+          <div>XXXX金融公司VI效果图</div>
+        </div>
+        <div class="box">
+          <img src="image/work.jpg " style="width: 300px" />
+          <div>XXXX金融公司VI效果图</div>
+        </div>
+        <div class="box">
+          <img src="image/work.jpg " style="width: 300px" />
+          <div>XXXX金融公司VI效果图</div>
+        </div>
+      </div>
     </div>
-    <div id="Bottom2" class="Bottom"></div>
+    <!-- 合作 -->
+    <div class="teamwork">
+      <div class="header">
+        <div class="one">曾与多企业合作</div>
+        <div class="two">————</div>
+        <div class="three">对设计保持好奇心、目的和激情，始终如一</div>
+      </div>
+      <div class="content">
+        <div class="one">
+          <img src="image/team.jpg" alt="" style="width: 200px" /><img
+            src="image/team.jpg"
+            alt=""
+            style="width: 200px"
+          /><img src="image/team.jpg" alt="" style="width: 200px" /><img
+            src="image/team.jpg"
+            alt=""
+            style="width: 200px"
+          />
+        </div>
+        <div class="two">
+          <img src="image/team.jpg" alt="" style="width: 200px" /><img
+            src="image/team.jpg"
+            alt=""
+            style="width: 200px"
+          /><img src="image/team.jpg" alt="" style="width: 200px" /><img
+            src="image/team.jpg"
+            alt=""
+            style="width: 200px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- 交流 -->
+    <div class="interflow">
+      <div class="header">
+        <div class="one">欢迎更多小伙伴与我交流</div>
+        <div class="two">————</div>
+      </div>
+      <div class="content">
+        <div class="one"><img src="image/interflow.png" alt="" /></div>
+        <div class="two">
+          <div>
+            多年工作经验，从传统广告到互联网，从视觉到UI交互，让我收获足够的经验，磨练出独特的审美以及与众不同的视野！
+          </div>
+          <div class="one">
+            <div class="name">
+              <div>姓名：<br /></div>
+              <p></p>
+              <input type="text" />
+            </div>
+            <div class="phone">
+              <div>电话：<br /></div>
+              <p></p>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="two">
+            <div>交流分享：</div>
+            <p><br /></p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button>提交</button>
+        </div>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bottom">
+      <div class="one">
+        <div class="A">
+          <div class="resume">个人简历</div>
+          <div class="a">
+            <a href=""> <div>首页</div> </a>
+            <a href=""> <div>作品介绍</div> </a>
+            <a href="">
+              <div>个人信息</div>
+            </a>
+          </div>
+        </div>
+        <div class="B">
+          <div>QQ：3351773348</div>
+          <div>联系电话：17789519184</div>
+          <div>联系邮箱：335173348@qq.com</div>
+          <div>联系地址：四川省成都市郫都县犀安路999号</div>
+        </div>
+      </div>
+      <div class="two"></div>
+    </div>
   </body>
 </html>
